@@ -444,6 +444,16 @@ img {
     width: 98%;
 }👈*/
 
+.skill-card {
+    display: flex;
+    min-height: 13rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
 .projects-section {
     position: relative;
     padding: 8rem 2rem;
