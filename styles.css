@@ -54,6 +54,15 @@
     --font-headline: "Space Grotesk", sans-serif;
     --font-body: "Inter", sans-serif;
     --font-label: "Inter", sans-serif;
+
+    --gradient-2: linear-gradient(
+        90deg,
+        #00c2db,
+        #00a2ff,
+        #0084ff,
+        #0077ff,
+        #003cff
+    );
 }
 
 * {
@@ -96,6 +105,20 @@ button {
 img {
     display: block;
     max-width: 100%;
+}
+
+.photo {
+    border-radius: 50%;
+    padding: 6px;
+    display: inline-block;
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+
+    background-image: var(--gradient-2);
+    background-size: 300%;
+    background-position: right;
+    animation: bg-animation 10s infinite;
 }
 
 .material-symbols-outlined {
