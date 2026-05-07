@@ -121,6 +121,12 @@ img {
     animation: bg-animation 10s infinite;
 }
 
+@keyframes bg-animation {
+    0% {background-position: left;}
+    50% {background-position: right;}
+    100% {background-position: left;}
+}
+
 .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
