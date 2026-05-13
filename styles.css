@@ -409,7 +409,7 @@ img {
 }
 
 .skill-title {
-    margin: 0 0 1rem;
+    margin: 0;
     font-family: var(--font-headline);
     font-size: 1.25rem;
     font-weight: 700;
@@ -457,16 +457,6 @@ img {
 /*👉.progress-98 {
     width: 98%;
 }👈*/
-
-.skill-card {
-    display: flex;
-    min-height: 13rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    text-align: center;
-}
 
 .projects-section {
     position: relative;
