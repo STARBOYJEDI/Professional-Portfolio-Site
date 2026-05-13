@@ -379,6 +379,8 @@ img {
     border: 1px solid rgba(67, 70, 85, 0.15);
     border-radius: 0.75rem;
     transition: border-color 150ms ease;
+
+    
 }
 
 .skill-card:hover {
