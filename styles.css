@@ -147,8 +147,8 @@ img {
     width: 100%;
     background: rgba(12, 19, 36, 0.8);
     box-shadow: 0 0 32px rgba(37, 99, 235, 0.08);
-    backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
 }
 
 .nav-inner {
@@ -163,8 +163,8 @@ img {
 
 .brand {
     background: linear-gradient(to right, var(--blue-600), var(--purple-600));
-    background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-family: var(--font-headline);
     font-size: 1.5rem;
@@ -328,8 +328,8 @@ img {
     border: 1px solid rgba(67, 70, 85, 0.2);
     background: rgba(35, 41, 60, 0.4);
     color: var(--on-surface);
-    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
 }
 
 .button-muted:hover {
@@ -370,8 +370,8 @@ img {
 
 .glass-card {
     background: rgba(46, 52, 71, 0.4);
-    backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
 }
 
 .skill-card {
@@ -572,6 +572,7 @@ img {
     color: var(--on-surface-variant);
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
 }
 
 .project-actions {
