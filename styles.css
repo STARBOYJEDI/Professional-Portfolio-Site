@@ -900,3 +900,16 @@ img {
         padding: 2rem;
     }
 }
+
+.project-visual-weather {
+    display: flex;
+    min-height: 15rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background:
+        radial-gradient(circle at top left, rgba(123, 208, 255, 0.35), transparent 35%),
+        linear-gradient(135deg, #0c1324, #2563eb 55%, #7c03d3);
+    text-align: center;
+}
