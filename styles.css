@@ -913,3 +913,19 @@ img {
         linear-gradient(135deg, #0c1324, #2563eb 55%, #7c03d3);
     text-align: center;
 }
+
+.weather-project-icon {
+    color: var(--primary);
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.project-visual-weather h3 {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    color: var(--on-primary-container);
+    font-family: var(--font-headline);
+    font-size: 2rem;
+    font-weight: 700;
+}
