@@ -965,3 +965,19 @@ img {
     background: linear-gradient(to right, var(--primary-container), var(--secondary-container));
     transition: width 200ms ease;
 }
+
+.nav-link:hover {
+    color: var(--white);
+}
+
+.nav-link.active,
+.nav-link.active:hover {
+    background: linear-gradient(to right, var(--primary-container), var(--secondary-container));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
