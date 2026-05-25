@@ -15,7 +15,7 @@ const sectionObserver = new IntersectionObserver(
     (entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
-                activeNavLink(entry.target.id);
+                activateNavLink(entry.target.id);
             }
         });
     },
