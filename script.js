@@ -10,3 +10,23 @@ const activateNavLink = (sectionId) => {
         }
     });
 };
+
+const sectionObserver = new IntersectionObserver(
+    (entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                activeNavLink(entry.target.id);
+            }
+        });
+    },
+    {
+        root: null,
+        threshold: 0.35,
+        rootMargin: "-25% 0px -45% 0px"
+    }
+);
+
+sections.forEach((section) => {
+    sectionObserver.observe(section);
+});
+
