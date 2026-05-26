@@ -208,7 +208,7 @@
                 </div>
 
                 <div class="glass-card contact-card">
-                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
                         <input type="hidden" name="access_key" value="064e85a1-89e2-47cc-9185-832af2bf2453">
                         <input type="hidden" name="subject" value="New Portfolio Message">
                         <input type="hidden" name="from_name" value="Mbuso Portfolio Website">
@@ -251,6 +251,8 @@
                         <button class="button button-primary form-button" type="submit">
                             Send Message
                         </button>
+
+                        <p id="form-status" class="form-status"></p>
                     </form>
                 </div>
             </div>
