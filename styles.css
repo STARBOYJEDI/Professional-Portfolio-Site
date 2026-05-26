@@ -992,3 +992,9 @@ img {
 .nav-link.active::after {
     width: 100%;
 }
+
+.form-status {
+    margin: 0;
+    color: var(--primary);
+    font-size: 0.95rem;
+}
