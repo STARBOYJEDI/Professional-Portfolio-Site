@@ -108,13 +108,14 @@ img {
 }
 
 .photo {
+    width: clamp(12rem, 55vw, 18.75rem);
+    height: auto;
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     padding: 6px;
     display: inline-block;
     overflow: hidden;
-    height: 300px;
-    width: 300px;
-
+    margin: 0 auto 2rem;
     background-image: var(--gradient-2);
     background-size: 300%;
     background-position: right;
