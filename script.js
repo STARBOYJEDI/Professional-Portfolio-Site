@@ -13,7 +13,7 @@ if (contactForm) {
         formStatus.textContent = "";
 
         try {
-            const response = await fetch(contactForm.ariaDescription, {
+            const response = await fetch(contactForm.action, {
                 method: "POST",
                 body: formData
             });
