@@ -907,6 +907,14 @@ img {
     }
 }
 
+@media (max-width: 640px) {
+    .photo {
+        width: min(65vw, 14rem);
+        padding: 4px;
+        margin-bottom: 1.5rem;
+    }
+}
+
 .project-visual-weather {
     display: flex;
     min-height: 15rem;
