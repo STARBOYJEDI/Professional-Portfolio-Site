@@ -1,3 +1,38 @@
+const contactForm = document.querySelector("#contact-form");
+const formStatus = document.querySelector("#form-status");
+
+if (contactForm) {
+    contactForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(contactForm);
+        const submitButton = contactForm.querySelector("button[type='submit']");
+
+        submitButton.disabled = true;
+        submitButton.textContent = "Sending...";
+        formStatus.textContent = "";
+
+        try {
+            const response = await fetch(contactForm.ariaDescription, {
+                method: "POST",
+                body: formData
+            });
+
+            if (response.ok) {
+                formStatus.textContent = "Message sent successfully!";
+                contactForm.reset();
+            } else {
+                formStatus.textContent = "Something went wrong. Please try again.";
+            }
+        } catch (error) {
+            formStatus.textContent = "Could not send message. Please check your connection.";
+        }
+
+        submitButton.disabled = false;
+        submitButton.textContent = "Send Message";
+    });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelectorAll(".nav-link");
     const sections = document.querySelectorAll("section[id]");
@@ -42,3 +77,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateActiveLink();
 });
+
