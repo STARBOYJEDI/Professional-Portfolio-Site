@@ -208,20 +208,45 @@
                 </div>
 
                 <div class="glass-card contact-card">
-                    <form class="contact-form">
+                    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact">
+                        
                         <div class="form-field">
                             <label class="form-label">Your Name</label>
-                            <input class="form-input" placeholder="Alexander Wright" type="text" />
+                            <input 
+                                class="form-input" 
+                                name="name" 
+                                placeholder="Alexander Wright" 
+                                type="text" 
+                                required
+                            />
                         </div>
+
                         <div class="form-field">
                             <label class="form-label">Email Address</label>
-                            <input class="form-input" placeholder="alex@studio.com" type="email" />
+                            <input 
+                                class="form-input" 
+                                name="email" 
+                                placeholder="alex@studio.com" 
+                                type="email" 
+                                required
+                            />
                         </div>
+
                         <div class="form-field">
                             <label class="form-label">Message</label>
-                            <textarea class="form-input form-textarea" placeholder="Tell me about your project..." rows="4"></textarea>
+                            <textarea 
+                                class="form-input form-textarea" 
+                                name="message" 
+                                placeholder="Tell me about your project..." 
+                                rows="4" 
+                                required
+                            ></textarea>
                         </div>
-                        <button class="button button-primary form-button" type="submit">Send Message</button>
+                        
+                        <button class="button button-primary form-button" type="submit">
+                            Send Message
+                        </button>
                     </form>
                 </div>
             </div>
