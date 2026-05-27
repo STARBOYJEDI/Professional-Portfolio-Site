@@ -172,6 +172,18 @@ img {
     position: relative;
 }
 
+.menu-toggle {
+    display: flex;
+    width: 2.75rem;
+    height: 2.75rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(67, 70, 85, 0.35);
+    border-radius: 0.75rem;
+    background: rgba(35, 41, 60, 0.6);
+    color: var(--on-surface);
+}
+
 .brand {
     background: linear-gradient(to right, var(--blue-600), var(--purple-600));
     -webkit-background-clip: text;
