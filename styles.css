@@ -217,6 +217,10 @@ img {
     backdrop-filter: blur(24px);
 }
 
+.nav-links.open {
+    display: flex;
+}
+
 /*.nav-link {
     color: var(--slate-400);
     font-family: var(--font-headline);
