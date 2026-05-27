@@ -221,6 +221,10 @@ img {
     display: flex;
 }
 
+.nav-link {
+    padding: 0.85rem 1rem;
+}
+
 /*.nav-link {
     color: var(--slate-400);
     font-family: var(--font-headline);
