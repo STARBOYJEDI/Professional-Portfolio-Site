@@ -170,6 +170,13 @@ img {
     margin: 0 auto;
     padding: 0 2rem;*/
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80rem;
+    height: 5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .menu-toggle {
