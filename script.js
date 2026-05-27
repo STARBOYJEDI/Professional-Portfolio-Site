@@ -34,8 +34,8 @@ if (contactForm) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const contactForm = document.querySelector("#contact-form");
-    const formStatus = document.querySelector("#form-status");
+    const contactForm = document.querySelector("#menu-toggle");
+    const formStatus = document.querySelector("#nav-menu");
 
     if (contactForm) {
         contactForm.addEventListener("submit", async (event) => {
