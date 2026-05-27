@@ -197,9 +197,9 @@ img {
 }
 
 .nav-links {
-    display: none;
+    /*display: none;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2.5rem;*/
 }
 
 /*.nav-link {
