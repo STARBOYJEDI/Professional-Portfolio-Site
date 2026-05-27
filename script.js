@@ -71,6 +71,30 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+
+    if (menuToggle && navMenu) {
+    menuToggle.addEventListener("click", () => {
+        const isOpen = navMenu.classList.toggle("open");
+
+        menuToggle.setAttribute("aria-expanded", isOpen);
+        menuToggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+
+        const icon = menuToggle.querySelector(".material-symbols-outlined");
+        icon.textContent = isOpen ? "close" : "menu";
+    });
+
+    navMenu.querySelectorAll(".nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+            navMenu.classList.remove("open");
+            menuToggle.setAttribute("aria-expanded", "false");
+            menuToggle.setAttribute("aria-label", "Open menu");
+
+            const icon = menuToggle.querySelector(".material-symbols-outlined");
+            icon.textContent = "menu";
+        });
+    });
+    }
+    
     const navLinks = document.querySelectorAll(".nav-link");
     const sections = document.querySelectorAll("section[id]");
     const nav = document.querySelector(".site-nav");
