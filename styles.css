@@ -889,6 +889,29 @@ img {
     .footer-inner {
         flex-direction: row;
     }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        align-items: center;
+        gap: 2.5rem;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
 }
 
 @media (min-width: 1024px) {
