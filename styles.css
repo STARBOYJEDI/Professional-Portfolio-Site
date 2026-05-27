@@ -200,6 +200,21 @@ img {
     /*display: none;
     align-items: center;
     gap: 2.5rem;*/
+    display: none;
+    position: absolute;
+    top: calc(100% + 0.75rem);
+    left: 1rem;
+    right: 1rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+    padding: 0.75rem;
+    border: 1px solid rgba(67, 70, 85, 0.35);
+    border-radius: 0.75rem;
+    background: rgba(12, 19, 36, 0.96);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
 }
 
 /*.nav-link {
