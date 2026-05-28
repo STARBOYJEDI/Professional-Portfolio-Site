@@ -1058,16 +1058,16 @@ img {
     font-weight: 700;
 }
 
-/*.nav-link.active {
+.nav-link.active {
     background: linear-gradient(to right, var(--primary-container), var(--secondary-container));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-}*/
+}
 
-/*.nav-link.active::after {
+.nav-link.active::after {
     width: 100%;
-}*/
+}
 
 .nav-link {
     position: relative;
