@@ -1,6 +1,8 @@
-# Web Developer Portfolio
+# Front-End Developer Portfolio
 
-A personal front-end developer portfolio website built with vanilla HTML, CSS, and JavaScript. The site introduces Mbuso as a front-end web developer, highlights technical skills, showcases selected projects, and includes a contact form for portfolio inquiries.
+A personal portfolio website built with vanilla HTML, CSS, and JavaScript. The site introduces Mbuso as a front-end web developer, highlights technical skills, showcases portfolio work, and provides a way for visitors to make contact.
+
+Live Website: https://mbusomabuzawebdev.netlify.app/
 
 ## Status
 
@@ -12,8 +14,8 @@ This README is temporary and will be updated as the portfolio grows.
 - Fixed navigation with active section highlighting
 - Hero/about section with profile image and short introduction
 - Technical foundation section with skill logos
-- Featured project section for portfolio work
-- Contact form connected to a form submission service
+- Featured work section for portfolio projects
+- Contact form for visitor messages
 - Email link for direct contact
 - Smooth scrolling between sections
 
@@ -32,15 +34,6 @@ This README is temporary and will be updated as the portfolio grows.
 - Skills
 - Projects
 - Contact
-
-## Featured Project
-
-### Weather Now
-
-A responsive weather dashboard built with HTML, CSS, and JavaScript. It allows users to search for a location, view current weather conditions, switch between Celsius and Fahrenheit, and browse daily and hourly forecasts.
-
-- Live Demo: https://weathernow99.netlify.app/
-- GitHub: https://github.com/STARBOYJEDI/Weather-App3
 
 ## Project Structure
 
@@ -64,12 +57,12 @@ Open `index.html` directly in your browser, or use a local development server th
 
 ## Contact Form
 
-The contact form is set up to send messages using Web3Forms. If you fork or reuse this project, replace the form access key with your own key.
+The contact form is set up for portfolio inquiries. If this project is reused or forked, the form service key should be replaced with the new owner's own key.
 
 ## Future Improvements
 
-- Add more completed projects
-- Add real project screenshots
+- Add completed portfolio projects
+- Add project screenshots
 - Link the Resume button to a downloadable CV
 - Improve form success and error feedback
 - Add SEO and social sharing metadata
